@@ -1,1 +1,10 @@
-hello all, welcome to india, this file for scm pipeline
+pipeline{
+        agent any
+                stages{
+                        stage('hello'){
+                                steps{
+                                        echo "this is jenkins pipe linewith scm"
+                                        }
+                                                }
+                        }
+        }
